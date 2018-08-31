@@ -1,0 +1,71 @@
+body{
+    background-color: #16a085;
+ }
+ 
+ .card {
+    width: 500px;
+    margin: 50px auto auto auto;
+    background-color: white;
+    padding: 40px 50px;
+    border-style: none;
+    border-radiux: 5px;
+ }
+ 
+ .footer {
+    text-align: center;
+ }
+ .me {
+      color: #FFF;
+      font-size: 20px;
+  }
+ 
+ .quote-author {
+    text-align: right;
+    color: #16a085;
+    margin-top: 15px;
+ }
+ 
+ .button {
+    margin-top: 30px;
+ }
+ .btn {
+      font-size: 15px;
+      color: #FFF;
+      background-color: #16a085;
+ }
+ .fa-quote-left,.fa-quote-right{
+   color: #16a085;
+ }
+ 
+ #text {
+    text-align: center;
+    font-size: 35px; 
+ }
+ 
+ #text-content {
+    color: #16a085;
+ }
+ .fa-twitter {
+    color: white;
+ }
+ 
+ #new-quote {
+    float: right;
+ }
+ 
+ @media (max-width: 520px) {
+   .card {
+     width: 90%;
+   }
+ }
+ @media (max-width: 400px) {
+   .card {
+     padding: 20px;
+   }
+ }
+ @media (max-width: 350px) {
+  .card {
+    width: 200px;
+    padding: 10px;
+  }
+}
